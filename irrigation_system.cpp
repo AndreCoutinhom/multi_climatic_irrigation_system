@@ -38,18 +38,20 @@ Centros de pesquisa de mais alto nível de precisão necessitam de uma leituras 
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2; 
 LiquidCrystal lcd (rs, en, d4, d5, d6, d7);
 
-const int pinoSensores[] = {A0, A1, A2, A3, A5};  // Pinos dos sensores
-const int numSensores = 5;  // Número total de sensores
+const int pinoSensores[] = {A0, A1, A2, A3};  // Pinos dos sensores
+const int pinoValvulas[] = {6, 7, 8, 9};      // Pinos das válvulas
+const int numSensores = 4;  // Número total de sensores
 
-const int pinoValvula = 10;
-const int limiaresSeco[] = {40, 50, 60, 70, 80};  // Limiares de solo seco para cada sensor
+const int limiaresSeco[] = {40, 50, 60, 80};  // Limiares de solo seco para cada sensor
 const int tempoRega = 20;
 
 int umidadeSolo[numSensores] = {0};
 
 void setup() {
-  pinMode(pinoValvula, OUTPUT);
-  digitalWrite(pinoValvula, HIGH);
+  for (int i = 0; i < numSensores; i++) {
+    pinMode(pinoValvulas[i], OUTPUT);
+    digitalWrite(pinoValvulas[i], HIGH);
+  }
   
   lcd.begin(16, 2);
   lcd.print(" Rega do Manual ");
@@ -74,9 +76,9 @@ void loop() {
       lcd.setCursor(0, 1);
       lcd.print(" Solo Seco ");
       
-      digitalWrite(pinoValvula, LOW);
+      digitalWrite(pinoValvulas[sensor], LOW);
       delay(tempoRega);
-      digitalWrite(pinoValvula, HIGH);
+      digitalWrite(pinoValvulas[sensor], HIGH);
     } else {
       lcd.setCursor(0, 1);
       lcd.print(" Solo Umido ");
