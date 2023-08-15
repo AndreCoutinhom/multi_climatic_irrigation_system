@@ -15,6 +15,8 @@ Este projeto foi inspirado no laboratório Shiomi, um centro de pesquisa fictíc
 
 O código, no entanto, foi baseado em um vídeo de tutorial para desenvolvimento de sistemas com Arduino no canal Manual do Mundo, apresentado por Iberê Thenório. No vídeo, Iberê ensina como desenvolver um sistema de irrigação inteligente controlado por um processador Arduino e um sensor de umidade.
 
+
+
 ## Manual do Mundo 🌎
 
 <div style="display: inline_block"><br>
@@ -35,6 +37,7 @@ Manual do Mundo. Desbravadores do conhecimento.
 - DÚVIDAS: contato@manualdomundo.com.br
 - PATROCÍNIOS e PARCERIAS: comercial@manualdomundo.com.br
 - ASSESSORIA de IMPRENSA: comunicacao@manualdomundo.com.br
+
 
 
 ## Anderson Harayashiki Moreira 🔭
