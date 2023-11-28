@@ -43,7 +43,7 @@ Manual do Mundo. Desbravadores do conhecimento.
 ## Anderson Harayashiki Moreira 🔭
 
 <div style="display: inline_block"><br>
-  <img align="center" alt="Anderson" height="180" width="180" src="https://media.licdn.com/dms/image/C4E03AQEk26OdFMo4YQ/profile-displayphoto-shrink_800_800/0/1516944854263?e=1697673600&v=beta&t=de3U7JwxAO-cw9-nZKx5qeXMYVjvai2uFOEpMJ01Pms">
+  <img align="center" alt="Anderson" height="180" width="180" src="https://media.licdn.com/dms/image/C4E03AQEk26OdFMo4YQ/profile-displayphoto-shrink_200_200/0/1516944854664?e=1706745600&v=beta&t=jTQ3XSxr7dzab_wSAyOxL_EkEOGjt5xI9gwzwP_UFQ0">
   
 <a href="https://www.linkedin.com/in/andersonhm/" target="_blank"><img align="center" height="48" width="180" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=black" target="_blank"></a>
 
